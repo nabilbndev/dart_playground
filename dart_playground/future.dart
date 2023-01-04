@@ -6,7 +6,9 @@ void main() {
 
 Future<void> fetchResult() {
   return Future.delayed(
-      const Duration(seconds: 2), (() => print('You\'ve got GPA-4.70')));
+      const Duration(seconds: 2),
+      (() => print(
+          'Congratulations! You have accomplished your high school diploma. You\'ve got GPA-4.70.')));
 }
 
 Future<void> fetchPosition() {
